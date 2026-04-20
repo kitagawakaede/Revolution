@@ -1,0 +1,56 @@
+# Detection toolkit 設定ファイル（雛形）
+#
+# 利用側はこのファイルをコピーして自プロジェクト用に編集して使う想定。
+# スクリプト実行時は --config で指定する。
+
+# 検出したいクラス（必ず上書きする）
+classes:
+  - class_a
+  - class_b
+  - class_c
+
+# データ配置
+data:
+  # 画像タイルのディレクトリ
+  train_images: data/train/images
+  val_images: data/val/images
+  # labelme JSON 束 → COCO に変換したファイル（labelme_to_coco.py で生成）
+  train_coco: data/train/coco.json
+  val_coco: data/val/coco.json
+
+# 画像タイル化（tile_image.py 用）
+tile:
+  size: 1024          # 正方形タイルの 1 辺 [px]
+  overlap: 128        # 隣接タイル間のオーバーラップ [px]
+
+# Copy-paste augmentation（copy_paste_augment.py 用）
+copy_paste:
+  enable: true
+  samples_per_tile: 20        # 1 タイル当たり貼り付ける記号の数（平均）
+  iou_margin_px: 4            # 貼付け重複禁止マージン
+  blend_mode: min             # min = 黒線は黒、白は背景に溶ける
+  noise:
+    add_random_lines: true
+    add_small_text: true
+    candidate_texts: ["D", "R", "50", "80"]
+
+# RT-DETR 学習
+train:
+  model_id: PekingU/rtdetr_v2_r18vd   # Apache 2.0, 軽量
+  output_dir: runs/detection
+  image_size: 640
+  epochs: 30
+  batch_size: 4
+  num_workers: 2
+  # Differential LR（backbone / enc-dec / head で別 LR）
+  lr_backbone: 1.0e-6
+  lr_encoder_decoder: 1.0e-5
+  lr_head: 1.0e-4
+  weight_decay: 1.0e-4
+  warmup_steps: 500
+  early_stop_patience: 7
+
+# 推論
+predict:
+  score_threshold: 0.3
+  nms_iou: 0.5

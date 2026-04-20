@@ -1,0 +1,44 @@
+[workspace]
+authors = ["tech_lab provide/detection"]
+channels = ["conda-forge", "nvidia", "pytorch"]
+name = "provide_detection"
+platforms = ["linux-64"]
+version = "0.1.0"
+description = "RT-DETR FT toolkit (training & inference on Linux + CUDA)"
+
+# 学習・推論専用。ラベリング・データ変換は provide/labeling/ で行う。
+
+[system-requirements]
+cuda = "12"
+
+[dependencies]
+python = "==3.10.14"
+pip = "==24.2"
+git = "==2.46.0"
+# cv2 互換のため numpy 1.x を pin
+numpy = "==1.26.4"
+
+[pypi-dependencies]
+torch = { version = "==2.5.1", index = "https://download.pytorch.org/whl/cu121" }
+torchvision = { version = "==0.20.1", index = "https://download.pytorch.org/whl/cu121" }
+
+# RT-DETR
+transformers = "==4.50.0"
+accelerate = "==1.0.1"
+
+# aug / eval
+albumentations = "==1.4.20"
+pycocotools = "==2.0.8"
+opencv-python = "==4.10.0.84"
+pillow = "==10.4.0"
+pyyaml = "==6.0.2"
+
+[tasks]
+# Copy-paste augmentation（合成データ生成）
+augment = "python scripts/copy_paste_augment.py"
+# RT-DETR FT
+train = "python scripts/train_rtdetr.py"
+# COCO mAP 評価
+eval = "python scripts/eval_rtdetr.py"
+# 推論（単画像）
+predict = "python scripts/predict.py"

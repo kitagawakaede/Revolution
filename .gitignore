@@ -1,0 +1,26 @@
+# pixi env (大きい, 再現は pixi.lock から行う)
+.pixi/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# 学習・推論出力
+runs/
+
+# ラベリング作業データ (再生成可能、個人データの可能性)
+labeling/data/
+labeling/data_backup*/
+
+# 学習データ
+detection/data/
+segmentation/data/

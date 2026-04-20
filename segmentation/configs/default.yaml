@@ -1,0 +1,51 @@
+# Segmentation toolkit 設定ファイル（雛形）
+
+# 検出したいクラス（background は自動で 0 番になるので記述しない）
+classes:
+  - class_a
+  - class_b
+
+# データ配置
+data:
+  # 手動アノテ済みの labelme JSON + 画像ディレクトリ（画像とマスクは labelme_to_mask.py で生成）
+  labeled_dir: data/labeled
+  # 学習データ配置（labelme_to_mask.py が作成）
+  dataset_root: data/dataset
+  # val に使うタイル名（split ロジックを自動に任せない場合）
+  val_tiles: []   # 例: ["my_image_r2c1"] 空ならランダム分割
+
+# タイル設定
+tile:
+  size: 1024
+  overlap: 0            # アノテの重複を避けるため推奨 0
+
+# ラベル → マスク変換
+label:
+  shape_type: linestrip       # 中心線をなぞる方式を想定
+  rasterize_width_px: 3       # cv2.polylines thickness
+  # polygon で塗った場合は rasterize_width_px は無視、領域塗りつぶし
+
+# 学習
+train:
+  encoder: mit_b2              # mit_b0, mit_b1, mit_b2, mit_b3, mit_b4, resnet34 等
+  encoder_weights: imagenet
+  output_dir: runs/segmentation
+  epochs: 50
+  batch_size: 4
+  crop_size: 512               # 学習時のランダムクロップサイズ
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  fp16: true
+  # 同一タイルを 1 epoch で N 回繰り返しクロップ（実効データ量増）
+  crops_per_tile_per_epoch: 16
+  # split 決定（val_tiles が空の場合のみ有効）
+  val_ratio: 0.15
+  seed: 42
+  loss:
+    ce_weight: 1.0
+    dice_weight: 1.0
+    cldice_weight: 1.0         # 線状構造の連結性保持。polygon 領域用途では下げてもよい
+
+# 推論
+predict:
+  crop_size: 512               # 推論時も 512 グリッド

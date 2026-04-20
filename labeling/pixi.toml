@@ -1,0 +1,41 @@
+[workspace]
+authors = ["tech_lab provide/labeling"]
+channels = ["conda-forge"]
+name = "provide_labeling"
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
+version = "0.1.0"
+description = "Cross-platform labeling toolkit (labelme + preprocessing/conversion)"
+
+# GPU / CUDA は不要。アノテ作業は CPU のみで完結させる。
+# Mac / Windows / Linux 全対応。
+
+[dependencies]
+python = "==3.10.14"
+pip = "==24.2"
+
+# ラスタライズ / 画像処理（学習・推論なし）
+numpy = "==1.26.4"
+pillow = "==10.4.0"
+
+[pypi-dependencies]
+# ラベリング本体（Mac/Win/Linux 全対応）
+labelme = "==5.5.0"
+
+# COCO 変換で必要
+pycocotools = "==2.0.8"
+
+# linestrip → マスクのラスタライズ
+opencv-python = "==4.10.0.84"
+
+# config 読み込み
+pyyaml = "==6.0.2"
+
+[tasks]
+# ラベリング本体（対話 GUI 起動）
+label-linux = "bash label.sh"
+# タイル化（前処理）
+tile = "python scripts/tile_image.py"
+# labelme JSON → COCO (detection 用)
+to-coco = "python scripts/labelme_to_coco.py"
+# labelme JSON → マスク (segmentation 用)
+to-mask = "python scripts/labelme_to_mask.py"

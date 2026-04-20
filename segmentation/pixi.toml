@@ -1,0 +1,35 @@
+[workspace]
+authors = ["tech_lab provide/segmentation"]
+channels = ["conda-forge", "nvidia", "pytorch"]
+name = "provide_segmentation"
+platforms = ["linux-64"]
+version = "0.1.0"
+description = "U-Net + MiT-B2 + clDice toolkit (training & inference on Linux + CUDA)"
+
+# 学習・推論専用。ラベリング・前処理は provide/labeling/ で行う。
+
+[system-requirements]
+cuda = "12"
+
+[dependencies]
+python = "==3.10.14"
+pip = "==24.2"
+git = "==2.46.0"
+numpy = "==1.26.4"
+
+[pypi-dependencies]
+torch = { version = "==2.5.1", index = "https://download.pytorch.org/whl/cu121" }
+torchvision = { version = "==0.20.1", index = "https://download.pytorch.org/whl/cu121" }
+
+segmentation-models-pytorch = "==0.3.4"
+timm = "==0.9.7"
+albumentations = "==1.4.20"
+
+opencv-python = "==4.10.0.84"
+pillow = "==10.4.0"
+pyyaml = "==6.0.2"
+
+[tasks]
+train = "python scripts/train_unet.py"
+predict = "python scripts/predict.py"
+stitch = "python scripts/stitch_tiles.py"

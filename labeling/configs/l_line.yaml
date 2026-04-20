@@ -1,0 +1,11 @@
+classes:
+  - l_line
+
+tile:
+  size: 1024
+  overlap: 0
+
+label:
+  rasterize_width_px: 4
+  # labelme で Create Polygons モードで描いても linestrip 扱いにする安全網
+  treat_polygon_as_linestrip: true

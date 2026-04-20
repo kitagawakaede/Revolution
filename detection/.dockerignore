@@ -1,0 +1,10 @@
+.pixi/
+runs/
+data/
+__pycache__/
+*.pyc
+.git
+.gitignore
+.dockerignore
+Dockerfile
+README.md

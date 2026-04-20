@@ -1,0 +1,6 @@
+.pixi/
+*.pyc
+__pycache__/
+# アノテ作業で生成されるタイル画像は再生成可能、JSON のみ追跡する運用を推奨
+tiles/*.png
+tiles/_preview/

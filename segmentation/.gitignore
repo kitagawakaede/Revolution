@@ -1,0 +1,8 @@
+.pixi/
+runs/
+data/
+*.pyc
+__pycache__/
+# タイル画像は再生成可能、アノテ JSON のみ git 追跡推奨
+labeling/*/*.png
+labeling/*/_progress_preview/

@@ -1,7 +1,52 @@
 {
-  "version": "5.2.1",
+  "version": "5.5.0",
   "flags": {},
-  "shapes": [],
+  "shapes": [
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1395.1764705882351,
+          1181.0588235294117
+        ],
+        [
+          1279.8823529411764,
+          1178.705882352941
+        ],
+        [
+          1279.8823529411764,
+          1522.235294117647
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1630.4705882352941,
+          1181.0588235294117
+        ],
+        [
+          1516.3529411764705,
+          1179.8823529411764
+        ],
+        [
+          1515.1764705882351,
+          1790.4705882352941
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    }
+  ],
   "imagePath": "page-05_r0c0.png",
   "imageData": null,
   "imageHeight": 2048,

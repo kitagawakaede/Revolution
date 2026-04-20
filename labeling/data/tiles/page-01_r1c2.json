@@ -1,0 +1,362 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l_line",
+      "points": [
+        [
+          132.0,
+          569.3333333333334
+        ],
+        [
+          17.333333333333332,
+          570.6666666666666
+        ],
+        [
+          17.333333333333332,
+          1072.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          320.0,
+          570.6666666666666
+        ],
+        [
+          206.66666666666666,
+          568.0
+        ],
+        [
+          206.66666666666666,
+          1137.3333333333333
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          556.0,
+          569.3333333333334
+        ],
+        [
+          445.3333333333333,
+          569.3333333333334
+        ],
+        [
+          444.0,
+          668.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          780.0,
+          569.3333333333334
+        ],
+        [
+          668.0,
+          570.6666666666666
+        ],
+        [
+          668.0,
+          704.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          981.3333333333334,
+          569.3333333333334
+        ],
+        [
+          869.3333333333334,
+          569.3333333333334
+        ],
+        [
+          868.0,
+          1144.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1312.0,
+          569.3333333333334
+        ],
+        [
+          1198.6666666666667,
+          569.3333333333334
+        ],
+        [
+          1198.6666666666667,
+          1196.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1477.3333333333333,
+          570.6666666666666
+        ],
+        [
+          1362.6666666666667,
+          569.3333333333334
+        ],
+        [
+          1362.6666666666667,
+          665.3333333333334
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1818.6666666666667,
+          570.6666666666666
+        ],
+        [
+          1706.6666666666667,
+          569.3333333333334
+        ],
+        [
+          1706.6666666666667,
+          1134.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          461.3333333333333,
+          1333.3333333333333
+        ],
+        [
+          349.3333333333333,
+          1336.0
+        ],
+        [
+          346.6666666666667,
+          1213.3333333333333
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          932.0,
+          1378.6666666666667
+        ],
+        [
+          822.6666666666666,
+          1376.0
+        ],
+        [
+          820.0,
+          1186.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1298.6666666666667,
+          1394.6666666666667
+        ],
+        [
+          1186.6666666666667,
+          1390.6666666666667
+        ],
+        [
+          1185.3333333333333,
+          1272.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1558.6666666666667,
+          1370.6666666666667
+        ],
+        [
+          1448.0,
+          1370.6666666666667
+        ],
+        [
+          1445.3333333333333,
+          1249.3333333333333
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1689.3333333333333,
+          1354.6666666666667
+        ],
+        [
+          1577.3333333333333,
+          1353.3333333333333
+        ],
+        [
+          1576.0,
+          1158.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1853.3333333333333,
+          1333.3333333333333
+        ],
+        [
+          1738.6666666666667,
+          1332.0
+        ],
+        [
+          1741.3333333333333,
+          1209.3333333333333
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1993.3333333333333,
+          1318.6666666666667
+        ],
+        [
+          1884.0,
+          1317.3333333333333
+        ],
+        [
+          1882.6666666666667,
+          1125.3333333333333
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1994.6666666666667,
+          569.3333333333334
+        ],
+        [
+          1884.0,
+          568.0
+        ],
+        [
+          1884.0,
+          704.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "page-01_r1c2.png",
+  "imageData": null,
+  "imageHeight": 2048,
+  "imageWidth": 2048
+}

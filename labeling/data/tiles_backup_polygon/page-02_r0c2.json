@@ -1,0 +1,146 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l_line",
+      "points": [
+        [
+          438.6666666666667,
+          664.0
+        ],
+        [
+          325.3333333333333,
+          664.0
+        ],
+        [
+          324.0,
+          1130.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          580.0,
+          665.3333333333334
+        ],
+        [
+          465.3333333333333,
+          664.0
+        ],
+        [
+          466.6666666666667,
+          1101.3333333333333
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          722.6666666666666,
+          664.0
+        ],
+        [
+          609.3333333333334,
+          664.0
+        ],
+        [
+          609.3333333333334,
+          798.6666666666666
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          877.3333333333334,
+          664.0
+        ],
+        [
+          762.6666666666666,
+          664.0
+        ],
+        [
+          761.3333333333334,
+          761.3333333333334
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1105.3333333333333,
+          664.0
+        ],
+        [
+          994.6666666666666,
+          665.3333333333334
+        ],
+        [
+          992.0,
+          774.6666666666666
+        ],
+        [
+          178.66666666666666,
+          776.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1154.6666666666667,
+          721.3333333333334
+        ],
+        [
+          1042.6666666666667,
+          721.3333333333334
+        ],
+        [
+          1040.0,
+          782.6666666666666
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "page-02_r0c2.png",
+  "imageData": null,
+  "imageHeight": 2048,
+  "imageWidth": 2048
+}

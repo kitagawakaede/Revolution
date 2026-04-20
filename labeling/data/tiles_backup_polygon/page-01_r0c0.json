@@ -1,0 +1,150 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1376.857142857143,
+          665.4285714285714
+        ],
+        [
+          1265.4285714285713,
+          665.4285714285714
+        ],
+        [
+          1264.0,
+          759.7142857142857
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1590.0,
+          665.0
+        ],
+        [
+          1476.25,
+          665.0
+        ],
+        [
+          1476.25,
+          797.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1908.75,
+          665.0
+        ],
+        [
+          1796.25,
+          665.0
+        ],
+        [
+          1795.0,
+          1110.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1281.25,
+          1276.25
+        ],
+        [
+          1167.5,
+          1276.25
+        ],
+        [
+          1168.75,
+          1118.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          906.25,
+          663.75
+        ],
+        [
+          1018.75,
+          663.75
+        ],
+        [
+          1017.5,
+          777.5
+        ],
+        [
+          2042.5,
+          776.25
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          858.75,
+          712.5
+        ],
+        [
+          971.25,
+          712.5
+        ],
+        [
+          970.0,
+          781.25
+        ],
+        [
+          2043.75,
+          783.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "page-01_r0c0.png",
+  "imageData": null,
+  "imageHeight": 2048,
+  "imageWidth": 2048
+}

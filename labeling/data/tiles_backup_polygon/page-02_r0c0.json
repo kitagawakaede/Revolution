@@ -1,0 +1,296 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l_line",
+      "points": [
+        [
+          173.33333333333334,
+          664.0
+        ],
+        [
+          61.333333333333336,
+          664.0
+        ],
+        [
+          60.0,
+          764.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          384.0,
+          665.3333333333334
+        ],
+        [
+          270.6666666666667,
+          662.6666666666666
+        ],
+        [
+          272.0,
+          798.6666666666666
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          562.6666666666666,
+          665.3333333333334
+        ],
+        [
+          448.0,
+          665.3333333333334
+        ],
+        [
+          449.3333333333333,
+          1170.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          749.3333333333334,
+          664.0
+        ],
+        [
+          640.0,
+          664.0
+        ],
+        [
+          637.3333333333334,
+          1230.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          988.0,
+          665.3333333333334
+        ],
+        [
+          873.3333333333334,
+          665.3333333333334
+        ],
+        [
+          873.3333333333334,
+          764.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1213.3333333333333,
+          665.3333333333334
+        ],
+        [
+          1098.6666666666667,
+          665.3333333333334
+        ],
+        [
+          1097.3333333333333,
+          801.3333333333334
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1413.3333333333333,
+          664.0
+        ],
+        [
+          1300.0,
+          664.0
+        ],
+        [
+          1297.3333333333333,
+          1240.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1741.3333333333333,
+          662.6666666666666
+        ],
+        [
+          1629.3333333333333,
+          664.0
+        ],
+        [
+          1629.3333333333333,
+          1289.3333333333333
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1910.6666666666667,
+          665.3333333333334
+        ],
+        [
+          1796.0,
+          664.0
+        ],
+        [
+          1796.0,
+          762.6666666666666
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          893.3333333333334,
+          1430.6666666666667
+        ],
+        [
+          778.6666666666666,
+          1428.0
+        ],
+        [
+          778.6666666666666,
+          1244.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1410.6666666666667,
+          1476.0
+        ],
+        [
+          1298.6666666666667,
+          1476.0
+        ],
+        [
+          1297.3333333333333,
+          1286.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1733.3333333333333,
+          1489.3333333333333
+        ],
+        [
+          1618.6666666666667,
+          1488.0
+        ],
+        [
+          1617.3333333333333,
+          1334.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          2041.3333333333333,
+          1457.3333333333333
+        ],
+        [
+          1961.3333333333333,
+          1454.6666666666667
+        ],
+        [
+          1958.6666666666667,
+          1262.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "page-02_r0c0.png",
+  "imageData": null,
+  "imageHeight": 2048,
+  "imageWidth": 2048
+}

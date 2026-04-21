@@ -1,7 +1,118 @@
 {
-  "version": "5.2.1",
+  "version": "5.5.0",
   "flags": {},
-  "shapes": [],
+  "shapes": [
+    {
+      "label": "l_line",
+      "points": [
+        [
+          408.11764705882354,
+          1181.0588235294117
+        ],
+        [
+          295.1764705882353,
+          1181.0588235294117
+        ],
+        [
+          295.1764705882353,
+          1777.5294117647059
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          526.9411764705883,
+          1235.1764705882351
+        ],
+        [
+          414.0,
+          1237.5294117647059
+        ],
+        [
+          414.0,
+          1788.1176470588234
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          930.4705882352941,
+          1181.0588235294117
+        ],
+        [
+          815.1764705882354,
+          1178.705882352941
+        ],
+        [
+          815.1764705882354,
+          1518.705882352941
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1164.5882352941176,
+          1181.0588235294117
+        ],
+        [
+          1052.8235294117646,
+          1181.0588235294117
+        ],
+        [
+          1051.6470588235293,
+          1789.2941176470588
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1922.235294117647,
+          1179.8823529411764
+        ],
+        [
+          1806.941176470588,
+          1181.0588235294117
+        ],
+        [
+          1806.941176470588,
+          1514.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {},
+      "mask": null
+    }
+  ],
   "imagePath": "page-08_r0c0.png",
   "imageData": null,
   "imageHeight": 2048,

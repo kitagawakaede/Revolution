@@ -45,6 +45,42 @@
       "shape_type": "linestrip",
       "flags": {},
       "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          728.2857142857143,
+          941.1428571428571
+        ],
+        [
+          782.5714285714286,
+          992.5714285714286
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          865.4285714285714,
+          938.2857142857142
+        ],
+        [
+          919.7142857142857,
+          986.8571428571428
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
     }
   ],
   "imagePath": "page-05_r1c2.png",

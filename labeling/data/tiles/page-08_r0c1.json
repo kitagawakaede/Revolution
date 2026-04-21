@@ -133,6 +133,114 @@
       "shape_type": "linestrip",
       "flags": {},
       "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          14.000000000000114,
+          1121.142857142857
+        ],
+        [
+          82.57142857142867,
+          1184.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          231.14285714285722,
+          1121.142857142857
+        ],
+        [
+          308.28571428571433,
+          1184.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          716.8571428571428,
+          1118.2857142857142
+        ],
+        [
+          788.2857142857143,
+          1178.2857142857142
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          951.1428571428572,
+          1121.142857142857
+        ],
+        [
+          1013.9999999999999,
+          1184.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          1505.4285714285716,
+          1121.142857142857
+        ],
+        [
+          1576.8571428571427,
+          1189.7142857142858
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          1748.2857142857142,
+          1129.7142857142858
+        ],
+        [
+          1836.8571428571427,
+          1198.2857142857142
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
     }
   ],
   "imagePath": "page-08_r0c1.png",

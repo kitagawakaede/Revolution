@@ -45,6 +45,222 @@
       "shape_type": "linestrip",
       "flags": {},
       "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1171.1428571428569,
+          1721.142857142857
+        ],
+        [
+          2036.8571428571427,
+          1726.857142857143
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1176.8571428571427,
+          1844.0
+        ],
+        [
+          2034.0,
+          1844.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1176.8571428571427,
+          1904.0
+        ],
+        [
+          2039.7142857142858,
+          1901.142857142857
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1176.8571428571427,
+          1966.8571428571427
+        ],
+        [
+          2042.5714285714284,
+          1958.2857142857142
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "l_line",
+      "points": [
+        [
+          1174.0,
+          2021.1428571428569
+        ],
+        [
+          2042.5714285714284,
+          2021.1428571428569
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          1554.0,
+          1126.857142857143
+        ],
+        [
+          1619.7142857142858,
+          1186.857142857143
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          1794.0,
+          1129.7142857142858
+        ],
+        [
+          1851.1428571428573,
+          1178.2857142857142
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          1168.2857142857142,
+          1672.5714285714284
+        ],
+        [
+          1231.1428571428573,
+          1726.857142857143
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          1171.1428571428569,
+          1789.7142857142856
+        ],
+        [
+          1231.1428571428573,
+          1841.142857142857
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          1174.0,
+          1852.5714285714284
+        ],
+        [
+          1234.0,
+          1906.8571428571427
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          1168.2857142857142,
+          1918.2857142857142
+        ],
+        [
+          1239.7142857142858,
+          1969.7142857142858
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "symbol",
+      "points": [
+        [
+          1162.5714285714284,
+          1975.4285714285716
+        ],
+        [
+          1242.5714285714284,
+          2026.8571428571427
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
     }
   ],
   "imagePath": "page-07_r0c0.png",
